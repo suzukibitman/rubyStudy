@@ -1,0 +1,3 @@
+https://so2.mutoys.com/master/item.json
+https://so2.mutoys.com/master/area.jsonレポート
+https://so2.mutoys.com/json/report/buy{YYYY}{MM}{DD}.json
