@@ -1,0 +1,21 @@
+
+rubyのでは分岐処理
+最初のキーが
+system:ならそのままデータベースに入れる
+user:そのままデータベースに入れる
+request:そのままデータベースに入れる
+area:次の分岐
+    userがあったらそのままデータベースに
+    areaがあったらそのままデータベースに
+
+system repo
+user repo
+request repo
+area
+    system
+    user
+    request
+
+client reuslt
+
+

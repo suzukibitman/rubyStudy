@@ -1,0 +1,73 @@
+{
+  "system": { // 全街住民の購入レポート
+    "item": {
+      商品ID(string): {
+        "count": 総取引件数(number),
+        "unit": 総取引数量(number),
+        "money": 総取引額(number),
+        "price": 取引単価(number)
+      },
+      ...
+    }
+  },
+  "user": { // 全街業者(店頭)の購入レポート
+    "item": {
+      商品ID(string): {
+        "count": 総取引件数(number),
+        "unit": 総取引数量(number),
+        "money": 総取引額(number),
+        "price": 取引単価(number)
+      },
+      ...
+    }
+  },
+  "request": { // 全街業者(注文)の購入レポート
+    "item": {
+      商品ID(string): {
+        "count": 総取引件数(number),
+        "unit": 総取引数量(number),
+        "money": 総取引額(number),
+        "price": 取引単価(number)
+      },
+      ...
+    }
+  },
+  "area": {
+    街ID(string): { // 街別レポート
+      "system": { // 街別住民の購入レポート
+        "item": {
+          商品ID(string): {
+            "count": 総取引件数(number),
+            "unit": 総取引数量(number),
+            "money": 総取引額(number),
+            "price": 取引単価(number)
+          },
+          ...
+        }
+      },
+      "user": { // 街別業者(店頭)の購入レポート
+        "item": {
+          商品ID(string): {
+            "count": 総取引件数(number),
+            "unit": 総取引数量(number),
+            "money": 総取引額(number),
+            "price": 取引単価(number)
+          },
+          ...
+        }
+      },
+      "request": { // 街別業者(注文)の購入レポート
+        "item": {
+          商品ID(string): {
+            "count": 総取引件数(number),
+            "unit": 総取引数量(number),
+            "money": 総取引額(number),
+            "price": 取引単価(number)
+          },
+          ...
+        }
+      },
+    },
+    ...
+  }
+}
